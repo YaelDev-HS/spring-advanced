@@ -1,0 +1,8 @@
+
+
+CREATE TABLE IF NOT EXISTS users (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    email TEXT NOT NULL,
+    name TEXT NOT NULL
+);
+

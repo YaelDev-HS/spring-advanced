@@ -6,4 +6,3 @@ import org.springframework.data.relational.core.mapping.Table;
 @Table("users")
 public record UserEntity( @Id Long id, String email, String name ){};
 
-
